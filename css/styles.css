@@ -4,6 +4,7 @@
 
 .center {
   margin: auto;
+  margin-top: 50px;
   border: 4px hotpink;
   border-style: dotted;
 }
