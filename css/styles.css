@@ -1,0 +1,9 @@
+#drinks, #under-21 {
+  display: none;
+}
+
+.center {
+  margin: auto;
+  border: 4px hotpink;
+  border-style: dotted;
+}
