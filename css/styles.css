@@ -1,10 +1,8 @@
-#drinks, #under-21 {
+#alcoholicDrinks, #nonAlcoholicDrinks {
   display: none;
 }
 
-.center {
-  margin: auto;
-  margin-top: 50px;
+.wine {
   border: 4px hotpink;
   border-style: dotted;
 }
