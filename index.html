@@ -8,16 +8,24 @@
   <title>Drinks</title>
 </head>
 <body>
+  <h1 class="title">Test bar and grill, established July 2020</h1>
+  <h3 class="sub-title">Food available morning, noon and night</h3>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6" class="history">
         <p>This is an example of a paragraph where a site might show it's history, it's legacy of quality to the community over the years.  Where we can highlight reasons to visit.  </p>
-        <button type="button">Are you over 2l?</button>
       </div>
       <div class="col-md-6" class="owners">
         <p>This is another paragraph where we can talk about the owners or founder.  How they came about to start this business and what having it in the community means to them.  </p>
       </div>
     </div>
+    
+    <form id="ageCheckForm">
+      <input type="radio" name="ageCheck" value="Under21" id="underAge"> 
+      <label for="underAge">Under 21</label>
+      <input type="radio" name="ageCheck" value="Over21" id="over" label="21+">
+      <button class="button">Are you over 21?</button>
+    </form>
     <div class="row">
       <div class="col-md-6">
         <div id="nonAlcoholicDrinks">
@@ -53,7 +61,6 @@
           </ul>
         </div>
       </div>
-      
     </div>
   </div>
 </body>

@@ -1,8 +1,11 @@
-#alcoholicDrinks, #nonAlcoholicDrinks {
+#alcoholicDrinks, #nonAlcoholicDrinks, #ageCheckForm {
   display: none;
 }
 
 .wine {
   border: 4px hotpink;
   border-style: dotted;
+}
+.button {
+
 }
