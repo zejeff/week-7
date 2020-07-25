@@ -16,6 +16,10 @@ $(document).ready(function() {
     event.preventDefault();
     var foodStyle = $('input:radio[name=style]:checked').val();
     var foodType = $('input:radio[name=type]:checked').val();
+    var foodCooked = $('input:radio[name=cooked]:checked').val();
+    var foodSpice = $('input:radio[name=spice]:checked').val();
+    var foodFlavor = $('input:radio[name=flavor]:checked').val();
+
     if (foodType === "F" && foodStyle === "M") {
       alert("You choose Fruit Medley");
     } else if (foodType === "F" && foodStyle === "S") {
